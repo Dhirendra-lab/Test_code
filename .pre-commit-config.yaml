@@ -1,0 +1,10 @@
+repos:
+  - repo: local
+    hooks:
+      - id: check-requirements
+        name: Check Requirements
+        entry: python check_requirements.py
+        language: python
+        files: \.py$
+        additional_dependencies: 
+          - stdlib_list
