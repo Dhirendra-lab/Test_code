@@ -6,5 +6,5 @@ repos:
         entry: python check_requirements.py
         language: python
         files: \.py$
-        additional_dependencies: 
+        additional_dependencies:
           - stdlib_list
